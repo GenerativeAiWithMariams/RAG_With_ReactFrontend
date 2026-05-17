@@ -1,0 +1,14 @@
+# Exclude frontend assets from backend Docker build
+frontend/
+node_modules/
+.git/
+.vscode/
+.idea/
+
+# Exclude backend state/cache
+backend/__pycache__/
+backend/*.pyc
+backend/data/previews/
+backend/data/faiss_index/
+backend/data/conversations.json
+backend/.env
